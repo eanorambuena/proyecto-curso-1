@@ -4,6 +4,7 @@
   "description": "Proyecto del curso Diseñando páginas web con Bootstrap 4",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://bitbucket.org/eanorambuena1/proyecto-curso-1/issues"
   },
-  "homepage": "https://bitbucket.org/eanorambuena1/proyecto-curso-1#readme"
+  "homepage": "https://bitbucket.org/eanorambuena1/proyecto-curso-1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
