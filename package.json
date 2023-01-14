@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-curso-1-uaustralargentina",
+  "version": "1.0.0",
+  "description": "Proyecto del curso Diseñando páginas web con Bootstrap 4",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/eanorambuena1/proyecto-curso-1.git"
+  },
+  "author": "Emmanuel Norambuena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/eanorambuena1/proyecto-curso-1/issues"
+  },
+  "homepage": "https://bitbucket.org/eanorambuena1/proyecto-curso-1#readme"
+}
