@@ -32,3 +32,24 @@
 .btn-see-more {
     width: 90%;
 }
+
+address {
+    margin-top: 1rem;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: darkcyan;
+    border-color: darkcyan
+}
+
+a {
+    color: darkcyan;
+}
+
+h1, h2, h3 {
+    color: darkslategray;
+}
