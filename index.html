@@ -4,77 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Document</title>
+    <title>eanorambuena's resume</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     
-    <br/>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-        <h1>Hola! Soy Emmanuel Norambuena</h2>
-        <p class="fs-2">Estudiante de Ingeniería</p>
-        <p><a href="https://www.linkedin.com/in/eanorambuena" target="_blank" class="btn
-        btn-primary btn-lg">Contáctame</a></p>
+    <div class="jumbotron container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="media/mifun.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Hola! Soy Emmanuel Norambuena</h1>
+                <p class="lead">Estudiante de Ingeniería</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="https://www.linkedin.com/in/eanorambuena" target="_blank" class="btn
+                        btn-primary btn-lg px-4 me-md-2">Contáctame</a>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div>
+            </div>
         </div>
     </div>
-    <br/>
+    <div class="b-example-divider"></div>
 
-    <hr/>
-    <div class="container">
+    <div class="container body">
         <h2>Ejes clave</h2>
         <section class="row">
-            <p class="col justify-content-center">
-                <b>Fullstack Development</b><br/>
-                React & Angular
-            </p>
-            <p class="col justify-content-center">
-                <b>Sustentabilidad</b><br/>
-                Desarrollo Sostenible
-            </p>
-            <p class="col justify-content-center">
-                <b>Gestión de proyectos</b><br/>
-                Lean Project Management
-            </p>
+            <div class="col justify-content-center">
+                <h3>Fullstack Development</h3>
+                <p>React & Angular</p>
+            </div>
+            <div class="col justify-content-center">
+                <h3>Sustentabilidad</h3>
+             <p>Desarrollo Sostenible</p>
+            </div>
+            <div class="col justify-content-center">
+                <h3>Gestión de proyectos</h3>
+                <p>Lean Project Management</p>
+            </div>
         </section>
 
         <h2>Skills</h2>
-        <section class="container">
-            <div class="row">
-                <b>Liderazgo</b>
-                Como líder de equipos de trabajo, he logrado el cumplimiento de objetivos
-                y la satisfacción de los clientes.
-                <button class="btn btn-primary btn-sm">Ver más</button>
+        <div class="d-flex flex-row flex-wrap">
+            <div class="skill-card d-flex flex-column justify-content-between d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Liderazgo</h3>
+                    <p>Como líder de equipos de trabajo, he logrado el cumplimiento de objetivos
+                    y la satisfacción de los clientes</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-sm btn-see-more">Ver más</button>
+                </div>
             </div>
-            <div class="row">
-                <b>Trabajo en equipo</b>
-                Constantemente he contribuido a la mejora de procesos y la resolución de
-                problemas en equipo.
-                <button class="btn btn-primary btn-sm">Ver más</button>
+            <div class="skill-card d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Trabajo en equipo</h3>
+                    <p>Constantemente he contribuido a la mejora de procesos y la resolución de
+                    problemas en equipo</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-sm btn-see-more">Ver más</button>
+                </div>
             </div>
-            <div class="row">
-                <b>Resolución de problemas</b>
-                He logrado la resolución de problemas complejos, a través de la
-                aplicación de herramientas de gestión de proyectos.
-                <button class="btn btn-primary btn-sm">Ver más</button>
+            <div class="skill-card d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Resolución de problemas</h3>
+                    <p>He logrado la resolución de problemas complejos, a través de la
+                    aplicación de herramientas de gestión de proyectos</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-sm btn-see-more">Ver más</button>
+                </div> 
             </div>
-            <div class="row">
-                <b>Lean Project Management</b>
-                Estoy empapado en la metodología Lean, con experiencia en la
-                aplicación de herramientas de integración de procesos.
-                <button class="btn btn-primary btn-sm">Ver más</button>
+            <div class="skill-card d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Lean Project Management</h3>
+                    <p>Estoy empapado en la metodología Lean, con experiencia en la
+                    aplicación de herramientas de integración de procesos</p>
+                </div> 
+                <div>
+                    <button class="btn btn-primary btn-sm btn-see-more">Ver más</button>
+                </div>
             </div>
-            <div class="row">
-                <b>Value Stream Mapping</b>
-                He realizado el mapeo de flujos de valor, para la mejora de procesos
-                y la reducción de tiempos.
-                <button class="btn btn-primary btn-sm">Ver más</button>
+            <div class="skill-card d-flex flex-column justify-content-between">
+                <div>
+                    <h3>Value Stream Mapping</h3>
+                    <p>He realizado el mapeo de flujos de valor, para la mejora de procesos
+                    y la reducción de tiempos</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-sm btn-see-more">Ver más</button>
+                </div>
             </div>
-        </section>
+        </div>
     </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Emmanuel Norambuena</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a href="https://www.linkedin.com/in/eanorambuena">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.github.com/eanorambuena">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.bitbucket.org/eanorambuena1">
+                    <i class="fa fa-bitbucket"></i>
+                </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
 
 </body>
 </html>
