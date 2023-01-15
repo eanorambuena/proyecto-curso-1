@@ -2,6 +2,8 @@
 
 ## Universidad Austral (Argentina)
 ### Facultad de Ingeniería
-### Coursera
 
-Empleé los ejemplos de Footer y Heroes de la página de Bootstrap en la realización de este proyecto.
+#### Alumno: Emmanuel Norambuena
+#### Plataforma: Coursera
+
+Me basé en los ejemplos de Footer y Heroes de la página de Bootstrap para mejorar el estio del jumbotron y el footer.
