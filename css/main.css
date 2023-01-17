@@ -120,3 +120,12 @@ label {
 .form-check-input:checked {
     background-color: darkcyan;
 }
+
+thead {
+    background-color: darkcyan;
+    color: white;
+}
+
+.th-for-row {
+    color: darkcyan;
+}
