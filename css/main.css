@@ -80,3 +80,43 @@ ul .active {
 .copy {
     padding-left: 5%;
 }
+
+.space {
+    height: 2rem;
+}
+
+.contact-form {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contact-form {
+        width: 60%;
+    }
+    .form-row-head {
+        padding-right: 0.5rem;
+    }
+    
+    .form-row-tail {
+        padding-left: 0.5rem;
+    }
+}
+
+.form-group {
+    margin: 0.5rem 0;
+}
+
+label {
+    text-align: left;
+}
+
+.form-row {
+    margin: 0;
+    width: 100%;
+}
+
+.form-check-input:checked {
+    background-color: darkcyan;
+}
