@@ -168,7 +168,7 @@ with the border property  and color darkcyan */
 
 .banner img {
     margin: auto;
-    width: 70vw;
+    width: 100%;
     height: auto;
 }
 
