@@ -27,7 +27,6 @@
 .skill-card {
     flex: 1 20%;
     padding: 1rem;
-    text-align: center;
 }
 
 .btn-see-more {
@@ -128,4 +127,26 @@ thead {
 
 .th-for-row {
     color: darkcyan;
+}
+
+/* please put a line behind card-header class
+with the border property  and color darkcyan */
+
+.card-header {
+    background-color: white;
+    color: darkcyan;
+}
+
+/* please add a gap between the cards horizontally
+*/
+
+.card {
+    margin: 1rem;
+}
+
+.card-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border: none;
 }
