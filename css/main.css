@@ -30,7 +30,7 @@
 }
 
 .btn-see-more {
-    width: 90%;
+    width: 100%;
 }
 
 address {
@@ -142,6 +142,7 @@ with the border property  and color darkcyan */
 
 .card {
     margin: 1rem;
+    min-width: 150px;
 }
 
 .card-footer {
@@ -149,4 +150,30 @@ with the border property  and color darkcyan */
     display: flex;
     justify-content: space-around;
     border: none;
+}
+
+.card-img-top {
+    margin-bottom: 1rem;
+}
+
+/* please add diffused shadow to the banner
+*/
+
+.banner {
+    margin: auto;
+    display: flex;
+    box-shadow: .5em 0 1.5em rgba(0, 0, 0, .1);
+    width: fit-content;
+}
+
+.banner img {
+    margin: auto;
+    width: 70vw;
+    height: auto;
+}
+
+.banner-container {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
 }
