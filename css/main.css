@@ -177,3 +177,27 @@ with the border property  and color darkcyan */
     margin: 2rem 0;
     display: flex;
 }
+
+.nav-tabs .nav-item .nav-link {
+    color: #495057;
+}
+
+.tab-pane div .card .card-header {
+    background-color: darkcyan;
+}
+
+.tab-pane div .card .card-header h3 {
+    color: white;
+    text-align: center;
+}
+
+.tab-pane .container, .tab.pane .table-responsive {
+    margin-top: 1rem;
+}
+
+.link-primary {
+    color: darkcyan!important; /*
+        El de Bootstrap está catalogado de importante,
+        por lo que sin !important no se sobreescribe el estilo de los links
+    */
+}

@@ -62,32 +62,83 @@
                 <li class="breadcrumb-item active" aria-current="page">Proyectos</li>
             </ol>
         </nav>
-        <div class="table-responsive">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Proyecto</th>
-                        <th scope="col">Descripción</th>
-                        <th scope="col">Lenguajes</th>
-                        <th scope="col">Enlace</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="th-for-row">Nateve</th>
-                        <td>A new general domain programming language open source inspired by languages like Python, C++, JavaScript, and Wolfram Mathematica</td>
-                        </td>
-                        <td>Python</td>
-                        <td><a href="https://github.com/NateveLang/Adam"><span class="oi oi-external-link"></span></a></td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="th-for-row">Mifun</th>
-                        <td>Minimal Function Notation, completamente compatible con Python 3.5^</td>
-                        <td>Python</td>
-                        <td><a href="https://github.com/eanorambuena/Mifun"><span class="oi oi-external-link"></span></a></td>
-                    </tr>
-                </tbody>
-            </table>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="destacados-tab" data-bs-toggle="tab"
+                href="#destacados" role="tab" aria-controls="destacados" aria-selected="true">Destacados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="todos-tab" data-bs-toggle="tab" href="#todos" role="tab"
+                aria-controls="todos" aria-selected="false">Todos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="howToColab-tab" data-bs-toggle="tab" href="#howToColab" role="tab"
+                aria-controls="howToColab" aria-selected="false">Cómo colaborar</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="destacados" role="tabpanel" aria-labelledby="destacados-tab">
+                <div class="d-flex flex-row">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Nateve</h3>
+                        </div>
+                        <div class="card-body">
+                            Lenguaje de programación de propósito general
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Mifun</h3>
+                        </div>
+                        <div class="card-body">
+                            Notación mínima de funciones para Python
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="todos" role="tabpanel" aria-labelledby="todos-tab">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Proyecto</th>
+                                <th scope="col">Descripción (idioma original)</th>
+                                <th scope="col">Lenguajes</th>
+                                <th scope="col">Enlace</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="th-for-row">Nateve</th>
+                                <td>A new general domain programming language open source inspired by languages like Python, C++, JavaScript, and Wolfram Mathematica</td>
+                                </td>
+                                <td>Python</td>
+                                <td><a href="https://github.com/NateveLang/Adam"><span class="oi oi-external-link"></span></a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="th-for-row">Mifun</th>
+                                <td>Minimal Function Notation, completamente compatible con Python 3.5^</td>
+                                <td>Python</td>
+                                <td><a href="https://github.com/eanorambuena/Mifun"><span class="oi oi-external-link"></span></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="howToColab" role="tabpanel" aria-labelledby="howToColab-tab">
+                <div class="container">
+                    <h3>¿Cómo colaborar?</h3>
+                    <p>Si quieres colaborar con alguno de mis proyectos, puedes hacerlo de las siguientes formas:</p>
+                    <ul>
+                        <li>Reportando un bug</li>
+                        <li>Enviando una sugerencia</li>
+                        <li>Enviando un pull request</li>
+                    </ul>
+                    <p>Para reportar un bug, sugerencia o pull request, puedes hacerlo en la sección de
+                        <a href="contact.html" class="link-primary">contacto</a>.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="space"></div>
