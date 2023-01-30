@@ -182,11 +182,11 @@ with the border property  and color darkcyan */
     color: #495057;
 }
 
-.tab-pane div .card .card-header {
+.card-header-alternative {
     background-color: darkcyan;
 }
 
-.tab-pane div .card .card-header h3 {
+.card-header-alternative h3 {
     color: white;
     text-align: center;
 }
@@ -195,7 +195,7 @@ with the border property  and color darkcyan */
     margin-top: 1rem;
 }
 
-.link-primary {
+.link-primary, .btn-link {
     color: darkcyan!important; /*
         El de Bootstrap está catalogado de importante,
         por lo que sin !important no se sobreescribe el estilo de los links
