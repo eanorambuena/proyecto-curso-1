@@ -201,3 +201,7 @@ with the border property  and color darkcyan */
         por lo que sin !important no se sobreescribe el estilo de los links
     */
 }
+
+.btn-collapse {
+    margin: 1rem auto;
+}

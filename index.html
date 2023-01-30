@@ -69,16 +69,36 @@
         </div>
 
         <h2>Ejes clave</h2>
-        <section class="row">
+        <div class="row">
             <div class="col justify-content-center">
+                <button class="btn btn-primary btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#fullstack"
+                    aria-controls="multiCollapse1" aria-expanded="false">
+                    Fullstack Development
+                </button>
+            </div>
+            <div class="col justify-content-center">
+                <button class="btn btn-primary btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#sustentabilidad"
+                    aria-controls="multiCollapse2" aria-expanded="false">
+                    Sustentabilidad
+                </button>
+            </div>
+            <div class="col justify-content-center">
+                <button class="btn btn-primary btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#gestion"
+                    aria-controls="multiCollapse3" aria-expanded="false">
+                    Gestión de proyectos
+                </button>
+            </div>
+        </div>
+        <section class="row">
+            <div class="col justify-content-center collapse multi-collapse" id="fullstack">
                 <h3>Fullstack Development</h3>
                 <p>React & Angular</p>
             </div>
-            <div class="col justify-content-center">
+            <div class="col justify-content-center collapse multi-collapse" id="sustentabilidad">
                 <h3>Sustentabilidad</h3>
              <p>Desarrollo Sostenible</p>
             </div>
-            <div class="col justify-content-center">
+            <div class="col justify-content-center collapse multi-collapse" id="gestion">
                 <h3>Gestión de proyectos</h3>
                 <p>Lean Project Management</p>
             </div>
