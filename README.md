@@ -7,3 +7,4 @@
 #### Plataforma: Coursera
 
 Me basé en los ejemplos de Footer y Heroes de la página de Bootstrap para mejorar el estio del jumbotron y el footer.
+No funciona el botón de cerrar en el modal

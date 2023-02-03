@@ -11,10 +11,6 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
     <nav class="navbar navbar-expand-md fixed-top">
         <a class="navbar-brand" href="#"><b>eanorambuena</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,6 +89,10 @@
                         <label class="form-check-label" for="gridCheck">
                             Deseo ser contactado
                         </label>
+                        <div class="tooltip-question-div">
+                            <span class="oi oi-question-mark" data-bs-toggle="tooltip" data-placement="top"
+                            title="Seleccione esta opción si desea recibir una respuesta a su mensaje, de esta forma este será proritario"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center">
@@ -150,6 +150,17 @@
             </ul>
         </footer>
     </div>
-
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Este script era requerido para el funcionamiento de Bootstrap 4 Tooltips
+        // pero ya no es necesario en Bootstrap 5 al parecer
+        $(
+          function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          }
+        )
+    </script>
 </body>
 </html>

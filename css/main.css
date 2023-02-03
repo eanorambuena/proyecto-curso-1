@@ -205,3 +205,18 @@ with the border property  and color darkcyan */
 .btn-collapse {
     margin: 1rem auto;
 }
+
+.tooltip-question-div span {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.tooltip-question-div {
+    background-color: darkcyan;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: top;
+}
