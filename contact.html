@@ -89,9 +89,9 @@
                         <label class="form-check-label" for="gridCheck">
                             Deseo ser contactado
                         </label>
-                        <div class="tooltip-question-div">
-                            <span class="oi oi-question-mark" data-bs-toggle="tooltip" data-placement="top"
-                            title="Seleccione esta opción si desea recibir una respuesta a su mensaje, de esta forma este será proritario"></span>
+                        <div class="tooltip-question-div"  data-bs-toggle="tooltip" data-placement="top"
+                        title="Seleccione esta opción si desea recibir una respuesta a su mensaje, de esta forma este será proritario">
+                            <span class="oi oi-question-mark"></span>
                         </div>
                     </div>
                 </div>
@@ -154,11 +154,9 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Este script era requerido para el funcionamiento de Bootstrap 4 Tooltips
-        // pero ya no es necesario en Bootstrap 5 al parecer
         $(
           function () {
-            $('[data-toggle="tooltip"]').tooltip()
+            $('[data-bs-toggle="tooltip"]').tooltip()
           }
         )
     </script>
