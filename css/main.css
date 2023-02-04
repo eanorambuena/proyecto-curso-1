@@ -159,25 +159,6 @@ with the border property  and color darkcyan */
 /* please add diffused shadow to the banner
 */
 
-.banner {
-    margin: auto;
-    display: flex;
-    box-shadow: .5em 0 1.5em rgba(0, 0, 0, .1);
-    width: fit-content;
-}
-
-.banner img {
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
-.banner-container {
-    width: 100%;
-    margin: 2rem 0;
-    display: flex;
-}
-
 .nav-tabs .nav-item .nav-link {
     color: #495057;
 }
@@ -219,4 +200,8 @@ with the border property  and color darkcyan */
     display: inline-flex;
     justify-content: center;
     align-items: top;
+}
+
+.banner-container {
+    border: none;
 }
