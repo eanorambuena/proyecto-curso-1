@@ -1,21 +1,37 @@
+$yellow: #f1c40f;
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$white: #ecf0f1;
+$black: #2c3e50;
+$lightgray: #95a5a6;
+
 $white: white;
 $darkcyan: darkcyan;
 $petrolcyan: darkslategray;
 $gray: #495057;
 $shadowblack: rgba(0, 0, 0, .1);
 
-@mixin shadow() {
+@mixin shadowBox() {
+    background-color: $white;
+    width: 100%;
     box-shadow: .5em 0 1.5em $shadowblack;
 }
 
-
+@mixin circleBackgroundForIcon($color) {
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: top;
+    background-color: $color;
+}
 .jumbotron {
-    background-color: $white;
+    @include shadowBox;
     margin-top: 5rem;
     margin-bottom: 1rem;
     padding: 2rem 6rem;
-    width: 100%;
-    box-shadow: .5em 0 1.5em $shadowblack;
 }
 
 .i {
@@ -67,9 +83,7 @@ h2, h3, a:hover {
 }
 
 .navbar {
-    background-color: $white;
-    width: 100%;
-    box-shadow: .5em 0 1.5em $shadowblack;
+    @include shadowBox;
     padding: 1rem;
 }
 
@@ -167,9 +181,6 @@ with the border property  and color $darkcyan */
     margin-bottom: 1rem;
 }
 
-/* please add diffused shadow to the banner
-*/
-
 .nav-tabs .nav-item .nav-link {
     color: $gray;
 }
@@ -204,13 +215,7 @@ with the border property  and color $darkcyan */
 }
 
 .tooltip-question-div {
-    background-color: $darkcyan;
-    border-radius: 50%;
-    width: 1.2rem;
-    height: 1.2rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: top;
+    @include circleBackgroundForIcon($darkcyan);
 }
 
 .banner-container {
