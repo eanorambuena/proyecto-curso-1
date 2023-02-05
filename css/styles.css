@@ -1,153 +1,158 @@
-@charset "UTF-8";
 .jumbotron {
   background-color: white;
   width: 100%;
   box-shadow: 0.5em 0 1.5em rgba(0, 0, 0, 0.1);
   margin-top: 5rem;
   margin-bottom: 1rem;
-  padding: 2rem 6rem; }
-
+  padding: 2rem 6rem;
+}
 .i {
-  font-size: 2.2rem; }
-
+  font-size: 2.2rem;
+}
 .fa-bitbucket {
-  font-size: 1rem; }
-
+  font-size: 1rem;
+}
 .body {
-  padding-top: 2rem; }
-
+  padding-top: 2rem;
+}
 .col {
   padding: 1rem;
-  text-align: center; }
-
+  text-align: center;
+}
 .skill-card {
   flex: 1 20%;
-  padding: 1rem; }
-
+  padding: 1rem;
+}
 .btn-see-more {
-  width: 100%; }
-
+  width: 100%;
+}
 address {
   margin-top: 1rem;
-  text-align: left; }
-
+  text-align: left;
+}
 .address-row {
-  width: 100%; }
-
+  width: 100%;
+}
 .btn-primary {
   background-color: darkcyan;
-  border-color: darkcyan; }
-
-a, b, h1, .oi {
-  color: darkcyan; }
-
-h2, h3, a:hover {
-  color: darkslategray; }
-
+  border-color: darkcyan;
+}
+a,
+b,
+h1,
+.oi {
+  color: darkcyan;
+}
+h2,
+h3,
+a:hover {
+  color: darkslategray;
+}
 .navbar {
   background-color: white;
   width: 100%;
   box-shadow: 0.5em 0 1.5em rgba(0, 0, 0, 0.1);
-  padding: 1rem; }
-
+  padding: 1rem;
+}
 ul .active {
-  font-weight: bold; }
-
+  font-weight: bold;
+}
 .navbar-brand {
   position: relative;
-  top: -0.1rem; }
-
+  top: -0.1rem;
+}
 .oi-phone {
   position: relative;
-  left: 0.2rem; }
-
+  left: 0.2rem;
+}
 .copy {
-  padding-left: 5%; }
-
+  padding-left: 5%;
+}
 .space {
-  height: 2rem; }
-
+  height: 2rem;
+}
 .contact-form {
   margin-top: 2rem;
   border-radius: 0.5rem;
-  width: 100%; }
-
+  width: 100%;
+}
 @media (min-width: 768px) {
   .contact-form {
-    width: 60%; }
+    width: 60%;
+  }
   .form-row-head {
-    padding-right: 0.5rem; }
+    padding-right: 0.5rem;
+  }
   .form-row-tail {
-    padding-left: 0.5rem; } }
-
+    padding-left: 0.5rem;
+  }
+}
 .form-group {
-  margin: 0.5rem 0; }
-
+  margin: 0.5rem 0;
+}
 label {
-  text-align: left; }
-
+  text-align: left;
+}
 .form-row {
   margin: 0;
-  width: 100%; }
-
+  width: 100%;
+}
 .form-check-input:checked {
-  background-color: darkcyan; }
-
+  background-color: darkcyan;
+}
 thead {
   background-color: darkcyan;
-  color: white; }
-
+  color: white;
+}
 .th-for-row {
-  color: darkcyan; }
-
-/* please put a line behind card-header class
-with the border property  and color $darkcyan */
+  color: darkcyan;
+}
 .card-header {
   background-color: white;
-  color: darkcyan; }
-
-/* please add a gap between the cards horizontally
-*/
+  color: darkcyan;
+}
 .card {
   margin: 1rem;
-  min-width: 150px; }
-
+  min-width: 150px;
+}
 .card-footer {
   background-color: white;
   display: flex;
   justify-content: space-around;
-  border: none; }
-
+  border: none;
+}
 .card-img-top {
-  margin-bottom: 1rem; }
-
+  margin-bottom: 1rem;
+}
 .nav-tabs .nav-item .nav-link {
-  color: #495057; }
-
+  color: #495057;
+}
 .card-header-alternative {
-  background-color: darkcyan; }
-
+  background-color: darkcyan;
+}
 .card-header-alternative h3 {
   color: white;
-  text-align: center; }
-
-.tab-pane .container, .tab.pane .table-responsive {
-  margin-top: 1rem; }
-
-.link-primary, .btn-link {
+  text-align: center;
+}
+.tab-pane .container,
+.tab.pane .table-responsive {
+  margin-top: 1rem;
+}
+.link-primary,
+.btn-link {
   color: darkcyan !important;
   /*
         El de Bootstrap está catalogado de importante,
         por lo que sin !important no se sobreescribe el estilo de los links
-    */ }
-
+    */
+}
 .btn-collapse {
-  margin: 1rem auto; }
-
+  margin: 1rem auto;
+}
 .tooltip-question-div span {
   color: white;
-  font-size: 0.8rem; }
-
+  font-size: 0.8rem;
+}
 .tooltip-question-div {
   border-radius: 50%;
   width: 1.2rem;
@@ -155,7 +160,8 @@ with the border property  and color $darkcyan */
   display: inline-flex;
   justify-content: center;
   align-items: top;
-  background-color: darkcyan; }
-
+  background-color: darkcyan;
+}
 .banner-container {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
