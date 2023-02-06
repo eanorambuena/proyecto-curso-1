@@ -16,7 +16,9 @@
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin me.html -d dist --htmlmin -o dist/me.html && usemin projects.html -d dist --htmlmin -o dist/projects.html",
     "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin",
     "grunt": "grunt",
-    "grunt:build": "grunt build"
+    "grunt:build": "grunt build",
+    "gulp": "gulp",
+    "gulp:build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -29,8 +31,10 @@
   },
   "homepage": "https://bitbucket.org/eanorambuena1/proyecto-curso-1#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.11",
     "copyfiles": "^2.4.1",
     "cssmin": "^0.4.3",
+    "del": "^7.0.0",
     "grunt": "^1.6.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^2.0.1",
@@ -43,6 +47,16 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-filerev": "^2.3.1",
     "grunt-usemin": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-rev": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-usemin": "^0.3.30",
     "htmlmin": "^0.0.7",
     "imagemin-cli": "^7.0.0",
     "jit-grunt": "^0.10.0",
